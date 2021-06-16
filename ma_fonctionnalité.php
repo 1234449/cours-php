@@ -18,6 +18,6 @@
     </head>
     <body>
         <h1>Hello World !</h1>
-        <p> It is super! git is working...</p> 
+        <p> It is super! git is working nicely...</p> 
     </body>
 </html>
