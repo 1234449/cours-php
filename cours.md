@@ -21,8 +21,12 @@ Ligne de commande a ouvrir dans le bon dossier.
 
 # Visualiser l'historique
 
-    -> Git log -> Cette commande nous permet d'avoir accès a tout l'historique des commits. Nous avons des infos spécifiques a chaque commit tel que l'auteur, la date, le nom du commit, et l'identifiant du commit 
-    -> Git show numero-de-version -> Permet de visualiser un fichier a un moment précis
-    -> git reset --hard numero-de-version -> Permet de revenir brutalement a la version antérieur choisie
 
-
+a voirecho :
+"# cours-php" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/1234449/cours-php.git
+git push -u origin main
